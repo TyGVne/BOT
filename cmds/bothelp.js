@@ -18,7 +18,7 @@ ${config.prefix}RANDOM [Số A] [Sô B] : Random từ số a đến số b
 ${config.prefix}CAONLINE : Xem danh sách CA Online
 ${config.prefix}CHONLINE : Xem danh sách CH Online
 ${config.prefix}MEDONLINE : Xem danh sách MED Online
-${config.prefix}GANGONLINE : Xem danh sách Gangters Online
+${config.prefix}GANGONLINE : Xem danh sách Gangsters Online
 --------------------Danh Sách Lệnh Ngành-----------------------
 ${config.prefix}CAHELP: Xem danh sách lệnh ngành CA
 ${config.prefix}MEDHELP: Xem danh sách lệnh ngành MED

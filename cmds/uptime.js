@@ -18,10 +18,8 @@ try
   .setColor('RANDOM')
   .addFields(
     // { name: "IP:" , value: "```fix\ns1.aethrp.com```", inline: false },
-    { name: 'Developer:'   , value:  data.vars['DEV'] , inline: true },
-    // { name: 'Administrator:'   , value:  data.vars.AdTeam, inline: true },
-    { name: 'Uptime:'     , value:  data.vars.Uptime, inline: true },
-    { name: 'Trong Game: ', value:  '```yaml\r\n Số Người Chơi: '+ online + "/" +data.vars.sv_maxClients  + ' ' +  data.vars["Công Việc"] + '```' , inline: false },
+    { name: '**Uptime**'     , value:  data.vars.Uptime, inline: true },
+    { name: 'Trong Game', value:  '```yaml\r\n Số Người Chơi : '+ online + "/" +data.vars.sv_maxClients | + ' ' +  data.vars["Công Việc"] + '```' , inline: false },
 
   )
   .setTimestamp();

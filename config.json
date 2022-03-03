@@ -99,6 +99,14 @@
         "nametag" : ["swe "]
     }
   ],
+  "low" : [
+    {
+        "label" : "LOW",
+        "nametag" : ["Low ", "low "]
+    }
+
+
+  ],
   "linkavt": "",
   "errlogid": "948977129666797608",
   "covidnewsid" : ["937367418458763284"] ,

@@ -1,7 +1,7 @@
 exports.run = async (message, args)=> {
     
-  let roomCommand = config.checkroomid[message.guild.id]
-  if (roomCommand != message.channel.id ) return message.reply('`Lệnh Này Chỉ Có Thể Sử Dụng ở ` <#' + roomCommand +'>' )
+  // let roomCommand = config.checkroomid[message.guild.id]
+  // if (roomCommand != message.channel.id ) return message.reply('`Lệnh Này Chỉ Có Thể Sử Dụng ở ` <#' + roomCommand +'>' )
  
 
   if (!args[1]) return message.reply('**Sai Cú Pháp** : `!CHECKSTEAM [STEAM ID]`')
