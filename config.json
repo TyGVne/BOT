@@ -56,18 +56,19 @@
   },
   "nametag": {
       "ca": [
-          "lspd ",
-          "sapd ", 
-          "gđca ",
-          "gdca ",
-          "pgđca ",
-          "pgdca "
+          "CS ",
+          "CS | ", 
+          "gdcs ",
+          "pgdcs ",
+          "pgdca ",
+          "gdca "
       ],
       "qy": [
 
       ],
       "med": [
-          "ems "
+          "med ",
+          "MED "
       ],
       "ch": [
           "qlch ",
