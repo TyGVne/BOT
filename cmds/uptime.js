@@ -17,9 +17,13 @@ try
   .setThumbnail(config.linkavt)
   .setColor('RANDOM')
   .addFields(
+    { name: 'OWNER',  value: '<@890492446834831381>',      inline: true },
+    { name: 'DEV',  value: '<@774466472629108737> <@499565312757334017>',      inline: true },
+    { name: 'SUPPORT',    value: '<@591959446775922690>',inline: true},
+    { name: 'BOT Creator',    value: '<@499565312757334017>',inline: true},
     // { name: "IP:" , value: "```fix\ns1.aethrp.com```", inline: false },
     { name: '**Uptime**'     , value:  data.vars.Uptime, inline: true },
-    { name: 'Trong Game', value:  '```yaml\r\n Số Người Chơi : '+ online + "/" +data.vars.sv_maxClients | + ' ' +  data.vars["Công Việc"] + '```' , inline: false },
+    { name: 'Trong Game', value:  '```yaml\r\n Số Người Chơi : '+ online + "/" +data.vars.sv_maxClients + ' ' +  data.vars["Công Việc"] + '```' , inline: false },
 
   )
   .setTimestamp();

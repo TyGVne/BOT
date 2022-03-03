@@ -1,7 +1,7 @@
 {
   "token": "OTAyNDQzOTY5OTU3NDYyMDU3.YXegcQ.eQfAKuHrWtBKNogTlqt-hF7AOQQ",
   "mongodb": "mongodb+srv://TyGV:09332833685Ty@cluster0.ki5sg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-  "prefix": ".",
+  "prefix": "!",
   "ip": "103.45.232.111:30120",  
   "servername" : "Family City",
   "simsimroomid": "857800808715255818",
