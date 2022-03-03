@@ -27,9 +27,9 @@ exports.run = async (message, args)=> {
 
 
   
-  for (let i = 0; i < config.disney.length; i++) {
-    let gangdata = config.disney[i]
-    var onlinelist = ''
+  for (let i = 0; i < config.low.length; i++) {
+    let gangdata = config.low[i]
+    let onlinelist = ''
     let stt = 1
  
     
@@ -37,21 +37,17 @@ exports.run = async (message, args)=> {
       ten =data[j].name
 
 
-      if(hasnametag(gangdata.nametag, ten))
+      if(hasnametag(gangdata.nametag , ten))
       { 
         onlinelist += '\n#' + stt + cach(4, stt.toString().length) + '[ID:' + data[j].id + ']' + cach(6 , data[j].id.toString().length ) + ': ' + data[j].name
         stt++
-        
       }
     
     }
-
   
-    if (onlinelist) var onlinelist = '' + onlinelist +''
-  else var onlinelist = 'Không Có LOW Nào ONLINE'
-     {
+    if (onlinelist) {
    
-      var embed = new Discord.MessageEmbed()
+      let embed = new Discord.MessageEmbed()
       .setTitle(config.servername)
       .setThumbnail(config.linkavt)
       .setColor('RANDOM')
@@ -61,11 +57,8 @@ exports.run = async (message, args)=> {
       )
       .setTimestamp();
       message.reply(embed);
-    
   
     }
-   
-    
   
   }
 
