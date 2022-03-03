@@ -1,0 +1,110 @@
+{
+  "token": "OTAyNDQzOTY5OTU3NDYyMDU3.YXegcQ.eQfAKuHrWtBKNogTlqt-hF7AOQQ",
+  "mongodb": "mongodb+srv://TyGV:09332833685Ty@cluster0.ki5sg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "prefix": ".",
+  "ip": "103.45.232.111:30120",  
+  "servername" : "Family City",
+  "simsimroomid": "857800808715255818",
+  "systemlogid": "948977129666797608",
+  "chatlogid": {
+      "857523057916641301" : "857811956248215562",
+      "846721789870473266" : "853616426425647114",
+      "846216930774745108" : "853614630189400104",
+      "853544022126362645" : "853614781659480084"
+  }, 
+  "allowall" : true,
+  "allowchannelid" : [], 
+  "banchannelid" : [],
+  "blacklistnganhdata": {
+      "ca": {
+          "content": "Truy Nã",
+          "rolestaffid": [
+              "846726541039239178"
+          ],
+          "commandroomid" : "853618429490364446",
+          "banroomid" : "853618389510258758",
+          "banroom2id" : "857821694167875594",
+          "banlogid" : "853616441994510337",
+          "bancheckid" : "853618407986561075",
+          "tkroomid" : "853618557710368809"
+      },
+      "med": {
+          "content": "Blacklist",
+          "rolestaffid": [
+              "846229016583471185",
+              "846229010748669982"
+          ],
+          "commandroomid" : "853621651706871848",
+          "banroomid" : "853621574035570698",
+          "banroom2id" : "857821752457166849",
+          "banlogid" : "853614650489569294",
+          "bancheckid" : "853621627413200896",
+          "tkroomid" : "853615739420540968"
+      },
+      "ch": {
+          "content": "Blacklist",
+          "rolestaffid": [
+              "853609621926969354"
+          ],
+          "commandroomid" : "853623008563691580",
+          "banroomid" : "853622960464199680",
+          "banroom2id" : "857821780822851584",
+          "banlogid" : "853614816791232512",
+          "bancheckid" : "853622983045677057",
+          "tkroomid" : "853616164534091776"
+      }
+  },
+  "nametag": {
+      "ca": [
+          "lspd ",
+          "sapd ", 
+          "gđca ",
+          "gdca ",
+          "pgđca ",
+          "pgdca "
+      ],
+      "qy": [
+
+      ],
+      "med": [
+          "ems "
+      ],
+      "ch": [
+          "qlch ",
+          "ch ",
+          "gđch ",
+          "pgđch ",
+          "gdch ",
+          "pgdch ",
+          "pqlch "
+      ]
+  },
+  "gang" : [
+    {
+        "label" : "LOW",
+        "nametag" : ["low ", "LOW"]
+    },
+    {
+        "label" : "Yakuza" ,
+        "nametag" : ["yakuza ", "ykz "]
+    },
+    {
+        "label" : "Tam Hoàng" ,
+        "nametag" : ["th "]
+    },
+    {
+        "label" : "SWE" ,
+        "nametag" : ["swe "]
+    }
+  ],
+  "linkavt": "",
+  "errlogid": "948977129666797608",
+  "covidnewsid" : ["937367418458763284"] ,
+  "checkroomid" : {
+    "857523057916641301" : "857812599718412338",
+    "846721789870473266" : "853617783316283392",
+    "846216930774745108" : "853615987429343244",
+    "853544022126362645" : "853616275087818772"
+  },
+  "resban": [ ]
+} 
