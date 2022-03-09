@@ -69,7 +69,8 @@
           "gdca "
       ],
       "qy": [
-
+        "qlqy ",
+        "qy "
       ],
       "med": [
           "med ",
@@ -91,12 +92,12 @@
         "nametag" : ["low ", "LOW"]
     },
     {
-        "label" : "Yakuza" ,
-        "nametag" : ["yakuza ", "ykz "]
+        "label" : "Tokyo" ,
+        "nametag" : ["tokyo ", "Tokyo "]
     },
     {
-        "label" : "Tam Hoàng" ,
-        "nametag" : ["th "]
+        "label" : "Hồng Hưng" ,
+        "nametag" : ["hh ", "HH "]
     },
     {
         "label" : "SWE" ,
@@ -108,6 +109,25 @@
         "label" : "LOW",
         "nametag" : ["Low ", "low "]
     }
+
+
+
+  ],
+  "tokyo" : [
+    {
+        "label" : "Tokyo" ,
+        "nametag" : ["tokyo ", "Tokyo "]
+    }
+
+
+
+  ],
+  "hh" : [
+    {
+        "label" : "Hồng Hưng" ,
+        "nametag" : ["hh ", "HH "]
+    }
+
 
 
   ],
