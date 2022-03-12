@@ -64,6 +64,7 @@ exports.run = async (message, args)=> {
   )
   
   chbanchannel.send(embed);
+  chbanchannel.send("<@&901752975813394432>");
 
   let embed2 = new Discord.MessageEmbed()
   .setColor([255, 0, 0])
@@ -71,6 +72,7 @@ exports.run = async (message, args)=> {
     {  name: 'Tiến Hành Blacklist: ', value:'Người Bị Blacklist: **' + username+ "**\r\nThời Gian: `" + timestart +" - "+ timeend + "` (" + thoigian + " ngày)\r\nLý Do: *" + lydo + '*\r\n' + "Link Steam: " + linksteam   , inline:  true }
   )
   chbanchannel2.send(embed2);
+  chbanchannel2.send("<@&901752975813394432>");
 
 
   timestart = yearstart + '-' + monthstart + '-' + datestart

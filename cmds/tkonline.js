@@ -30,7 +30,7 @@ exports.run = async (message, args)=> {
     await MongoClient.db("botdata").collection("tokenaccess").insertOne({ "tokenid" : tokenid , "type" : typecheck , "timerange" : timerangestart , "expire" : new Date().getTime() + 30*60*1000})
     
 
-    let urlstring = `https://gtasanbot.herokuapp.com/tkonline?tokenaccess=${tokenid}`
+    let urlstring = `https://uptime-ca.herokuapp.com/tkonline?tokenaccess=${tokenid}`
     message.reply(`**Thống Kê Online Tuần ${new Date(timerangestart).getDate()}/${new Date(timerangestart).getMonth() +1} Ngành ${typecheck}**\nLink: ${urlstring} \n${'`'}Lưu Ý: LINK hết hạn sau 30p${'`'}`)
 }
   

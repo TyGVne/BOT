@@ -62,8 +62,9 @@ exports.run = async (message, args)=> {
   .addFields(
     {  name: 'Ghi Nhận Blacklist Bác Sĩ: ', value: 'Người Blacklist: '+ name + '\r\nNgười Bị Blacklist: **' + username+ "**\r\nThời Gian: `" + timestart +" - "+ timeend + "` (" + thoigian + " ngày)\r\nLý Do: *" + lydo + '*\r\n' + "Link Steam: " + linksteam   , inline:  true }
   )
- 
+  
    medbanchannel.send(embed);
+   medbanchannel.send("<@&901752473809739816>");
   
   let embed2 = new Discord.MessageEmbed()
   .setColor([255, 0, 0])
@@ -71,6 +72,7 @@ exports.run = async (message, args)=> {
     {  name: 'Tiến Hành Blacklist: ', value:'Người Bị Blacklist: **' + username+ "**\r\nThời Gian: `" + timestart +" - "+ timeend + "` (" + thoigian + " ngày)\r\nLý Do: *" + lydo + '*\r\n' + "Link Steam: " + linksteam   , inline:  true }
   )
   medbanchannel2.send(embed2);
+  medbanchannel2.send("<@&901752473809739816>");
 
   timestart = yearstart + '-' + monthstart + '-' + datestart
   timeend = yearend + '-' + monthend + '-' + dateend
