@@ -6,7 +6,7 @@ exports.run = async (message, args)=> {
       .addFields(
                   { name: 'Bước 1',             value: '***```Bấm F8 , 1 trong 2 cái```***' },
                   { name: 'Bước 2',             value: '***```Paste link : Connect ndt90family.tk ```***' },
-                  { name: 'HOẶC',             value: '***```Paste link : Connect 21e14a67.lectron.net:59023 ```***' },
+                  { name: 'HOẶC',             value: '***```Paste link : Connect 56e89fb2.lectron.net:1000 ```***' },
                   { name: 'Bước 3',             value: '***```Sau đó ENTER để vào thành phố```***' },
                   { name: 'Family Said',             value: '***" Chúc các bạn online vui vẻ "***' },
          
