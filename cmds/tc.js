@@ -39,7 +39,7 @@ exports.run = async (message, args)=> {
   
         if(hasnametag(gangdata.nametag , ten))
         { 
-          onlinelist += '\n#' + stt + cach(4, stt.toString().length) + '[ID:' + data[j].id + ']' + cach(6 , data[j].id.toString().length ) + ': ' + data[j].name
+          onlinelist += '\n#' + stt + cach(7, stt.toString().length) + '[ID:' + data[j].id + ']' + cach(11 , data[j].id.toString().length ) + ': ' + data[j].name
           stt++
         }
       
