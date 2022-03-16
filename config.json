@@ -87,30 +87,21 @@
     },
     "gang" : [
       {
-          "label" : "LOW",
-          "nametag" : ["low ", "LOW"]
-      },
-      {
           "label" : "Tokyo" ,
           "nametag" : ["tokyo ", "Tokyo "]
       },
       {
-          "label" : "Hồng Hưng" ,
-          "nametag" : ["hh ", "HH "]
+        "label" : "PINK BOY" ,
+        "nametag" : ["pb ", "PB "]
       },
       {
-          "label" : "SWE" ,
-          "nametag" : ["swe "]
-      }
-    ],
-    "low" : [
+        "label" : "THE CLOWN" ,
+        "nametag" : ["The Clown ", "THE CLOWN "]
+      },
       {
-          "label" : "LOW",
-          "nametag" : ["Low ", "low "]
+        "label" : "Hắc Long" ,
+        "nametag" : ["hắc long ", "Hắc Long "]
       }
-  
-  
-  
     ],
     "tokyo" : [
       {
@@ -121,15 +112,33 @@
   
   
     ],
-    "hh" : [
-      {
-          "label" : "Hồng Hưng" ,
-          "nametag" : ["hh ", "HH "]
-      }
-  
-  
-  
-    ],
+    "pb" : [
+        {
+            "label" : "PINK BOY" ,
+            "nametag" : ["pb ", "PB "]
+        }
+    
+    
+    
+      ],
+    "tc" : [
+        {
+            "label" : "THE CLOWN" ,
+            "nametag" : ["The Clown ", "THE CLOWN "]
+        }
+    
+    
+    
+      ],
+      "hl" : [
+        {
+            "label" : "Hắc Long" ,
+            "nametag" : ["hắc long ", "Hắc Long "]
+        }
+    
+    
+    
+      ],
     "linkavt": "",
     "errlogid": "951355309945925653",
     "covidnewsid" : ["951355309945925653"] ,
