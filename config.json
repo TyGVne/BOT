@@ -96,7 +96,7 @@
       },
       {
         "label" : "THE CLOWN" ,
-        "nametag" : ["the clown ", "THE CLOWN "]
+        "nametag" : ["the clown ", "THE CLOWN ","the clown | ", "The Clown | "]
       },
       {
         "label" : "Hắc Long" ,
@@ -124,7 +124,7 @@
     "tc" : [
         {
             "label" : "THE CLOWN" ,
-            "nametag" : ["the clown ", "THE CLOWN "]
+            "nametag" : ["the clown ", "THE CLOWN ","the clown | ", "The Clown | "]
         }
     
     
