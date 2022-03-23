@@ -99,8 +99,8 @@
         "nametag" : ["the clown ", "THE CLOWN ","the clown | ", "The Clown | "]
       },
       {
-        "label" : "Hắc Long" ,
-        "nametag" : ["hắc long ", "Hắc Long "]
+        "label" : "Yang Hồ Mõm" ,
+        "nametag" : ["yhm ", "YHM "]
       }
     ],
     "tokyo" : [
@@ -130,10 +130,10 @@
     
     
       ],
-      "hl" : [
+    "yhm" : [
         {
-            "label" : "Hắc Long" ,
-            "nametag" : ["hắc long ", "Hắc Long "]
+          "label" : "Yang Hồ Mõm" ,
+          "nametag" : ["yhm ", "YHM "]
         }
     
     

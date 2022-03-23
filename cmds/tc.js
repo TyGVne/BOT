@@ -52,7 +52,7 @@ exports.run = async (message, args)=> {
         .setThumbnail(config.linkavt)
         .setColor('RANDOM')
         .addFields(
-          { name: `${gangdata.label} Online:`   , value: "```fix\n" + onlinelist + "```", inline: false },
+          { name: `${gangdata.label} Online :`   , value: "```fix\n" + onlinelist + "```", inline: false },
        
         )
         .setTimestamp();

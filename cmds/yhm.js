@@ -27,8 +27,8 @@ exports.run = async (message, args)=> {
   
   
     
-    for (let i = 0; i < config.hl.length; i++) {
-      let gangdata = config.hl[i]
+    for (let i = 0; i < config.yhm.length; i++) {
+      let gangdata = config.yhm[i]
       let onlinelist = ''
       let stt = 1
    
