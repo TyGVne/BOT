@@ -1,153 +1,143 @@
 {
-    "token": "OTU4MzIzMzcwMDA3NjIxNzIz.YkLqMA.nX9c6yXhz85JkLaCOpM0yotRZ9c",
-    "mongodb": "mongodb+srv://TyGV:09332833685Ty@cluster0.ki5sg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "prefix": "!",
-    "ip": "139.99.125.117:30120",  
-    "servername" : "Family City",
-    "simsimroomid": "857800808715255818",
-    "systemlogid": "948977129666797608",
-    "chatlogid": {
-        "857523057916641301" : "857811956248215562",
-        "846721789870473266" : "853616426425647114",
-        "846216930774745108" : "853614630189400104",
-        "853544022126362645" : "853614781659480084"
-    }, 
-    "allowall" : true,
-    "allowchannelid" : [], 
-    "banchannelid" : [],
-    "blacklistnganhdata": {
-        "ca": {
-            "content": "Truy Nã",
-            "rolestaffid": [
-                "951799472168525884"
-            ],
-            "commandroomid" : "952136285869461514",
-            "banroomid" : "951402837752045608",
-            "banroom2id" : "952140018657402880",
-            "banlogid" : "952140241026818049",
-            "bancheckid" : "952136285869461514",
-            "tkroomid" : "952136285869461514"
-        },
-        "med": {
-            "content": "Blacklist",
-            "rolestaffid": [
-                "901752473809739816"
-            ],
-            "commandroomid" : "952143273500221440",
-            "banroomid" : "952143214859665418",
-            "banroom2id" : "952141180639014972",
-            "banlogid" : "952143324695908392",
-            "bancheckid" : "853621627413200896",
-            "tkroomid" : "853615739420540968"
-        },
-        "ch": {
-            "content": "Blacklist",
-            "rolestaffid": [
-                "901752975813394432"
-            ],
-            "commandroomid" : "952141629635063859",
-            "banroomid" : "952141509736685638",
-            "banroom2id" : "952141255528312882",
-            "banlogid" : "952141666440069171",
-            "bancheckid" : "952141629635063859",
-            "tkroomid" : "853616164534091776"
-        }
+  "token": "OTUxMzU0MDkzMzIwOTI5Mjgw.YimPiw.YnisFsNF3mnERszefx_tYHtgnLU",
+  "mongodb": "mongodb+srv://TyGV:09332833685Ty@cluster0.ki5sg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "prefix": ".",
+  "ip": "103.45.232.111:30120",  
+  "servername" : "Family City",
+  "simsimroomid": "857800808715255818",
+  "systemlogid": "948977129666797608",
+  "chatlogid": {
+      "857523057916641301" : "857811956248215562",
+      "846721789870473266" : "853616426425647114",
+      "846216930774745108" : "853614630189400104",
+      "853544022126362645" : "853614781659480084"
+  }, 
+  "allowall" : true,
+  "allowchannelid" : [], 
+  "banchannelid" : [],
+  "blacklistnganhdata": {
+      "ca": {
+          "content": "Truy Nã",
+          "rolestaffid": [
+              "951799472168525884"
+          ],
+          "commandroomid" : "952136285869461514",
+          "banroomid" : "951402837752045608",
+          "banroom2id" : "952140018657402880",
+          "banlogid" : "952140241026818049",
+          "bancheckid" : "952136285869461514",
+          "tkroomid" : "952136285869461514"
+      },
+      "med": {
+          "content": "Blacklist",
+          "rolestaffid": [
+              "901752473809739816"
+          ],
+          "commandroomid" : "952143273500221440",
+          "banroomid" : "952143214859665418",
+          "banroom2id" : "952141180639014972",
+          "banlogid" : "952143324695908392",
+          "bancheckid" : "853621627413200896",
+          "tkroomid" : "853615739420540968"
+      },
+      "ch": {
+          "content": "Blacklist",
+          "rolestaffid": [
+              "901752975813394432"
+          ],
+          "commandroomid" : "952141629635063859",
+          "banroomid" : "952141509736685638",
+          "banroom2id" : "952141255528312882",
+          "banlogid" : "952141666440069171",
+          "bancheckid" : "952141629635063859",
+          "tkroomid" : "853616164534091776"
+      }
+  },
+  "nametag": {
+      "ca": [
+          "CS ",
+          "cs ",
+          "ca ",
+          "CS | ", 
+          "GĐCS ",
+          "PGĐCS ",
+          "gdcs ",
+          "gđcs ",
+          "pgdcs ",
+          "pgdca ",
+          "gdca "
+      ],
+      "qy": [
+        "qlqy ",
+        "qy "
+      ],
+      "med": [
+          "med ",
+          "MED "
+      ],
+      "ch": [
+          "qlch ",
+          "ch ",
+          "gđch ",
+          "pgđch ",
+          "gdch ",
+          "pgdch ",
+          "pqlch "
+      ]
+  },
+  "gang" : [
+    {
+        "label" : "LOW",
+        "nametag" : ["low ", "LOW"]
     },
-    "nametag": {
-        "ca": [
-            "CS ",
-            "cs ",
-            "ca ",
-            "CS | ", 
-            "GĐCS ",
-            "PGĐCS ",
-            "gdcs ",
-            "gđcs ",
-            "pgdcs ",
-            "pgdca ",
-            "gdca "
-        ],
-        "qy": [
-          "qlqy ",
-          "qy "
-        ],
-        "med": [
-            "med ",
-            "MED "
-        ],
-        "ch": [
-            "qlch ",
-            "ch ",
-            "gđch ",
-            "pgđch ",
-            "gdch ",
-            "pgdch ",
-            "pqlch "
-        ]
+    {
+        "label" : "Tokyo" ,
+        "nametag" : ["tokyo ", "Tokyo "]
     },
-    "gang" : [
-      {
-          "label" : "Tokyo" ,
-          "nametag" : ["tokyo ", "Tokyo "]
-      },
-      {
-        "label" : "PINK BOY" ,
-        "nametag" : ["pb ", "PB "]
-      },
-      {
-        "label" : "THE CLOWN" ,
-        "nametag" : ["the clown ", "THE CLOWN ","the clown | ", "The Clown | "]
-      },
-      {
-        "label" : "Yang Hồ Mõm" ,
-        "nametag" : ["yhm ", "YHM "]
+    {
+        "label" : "Hồng Hưng" ,
+        "nametag" : ["hh ", "HH "]
+    },
+    {
+        "label" : "SWE" ,
+        "nametag" : ["swe "]
+    }
+  ],
+  "low" : [
+    {
+        "label" : "LOW",
+        "nametag" : ["Low ", "low "]
+    }
 
-      }
-    ],
-    "tokyo" : [
-      {
-          "label" : "Tokyo" ,
-          "nametag" : ["tokyo ", "Tokyo "]
-      }
-  
-  
-  
-    ],
-    "pb" : [
-        {
-            "label" : "PINK BOY" ,
-            "nametag" : ["pb ", "PB "]
-        }
-    
-    
-    
-      ],
-    "tc" : [
-        {
-            "label" : "THE CLOWN" ,
-            "nametag" : ["the clown ", "THE CLOWN ","the clown | ", "The Clown | "]
-        }
-    
-    
-    
-      ],
-    "yhm" : [
-        {
-          "label" : "Yang Hồ Mõm" ,
-          "nametag" : ["yhm ", "YHM "]
-        }
-    
-    
-    
-      ],
-    "linkavt": "",
-    "errlogid": "951355309945925653",
-    "covidnewsid" : ["951355309945925653"] ,
-    "checkroomid" : {
-      "857523057916641301" : "857812599718412338",
-      "846721789870473266" : "853617783316283392",
-      "846216930774745108" : "853615987429343244",
-      "853544022126362645" : "853616275087818772"
-    },
-    "resban": [ ]
-  } 
+
+
+  ],
+  "tokyo" : [
+    {
+        "label" : "Tokyo" ,
+        "nametag" : ["tokyo ", "Tokyo "]
+    }
+
+
+
+  ],
+  "hh" : [
+    {
+        "label" : "Hồng Hưng" ,
+        "nametag" : ["hh ", "HH "]
+    }
+
+
+
+  ],
+  "linkavt": "",
+  "errlogid": "951355309945925653",
+  "covidnewsid" : ["951355309945925653"] ,
+  "checkroomid" : {
+    "857523057916641301" : "857812599718412338",
+    "846721789870473266" : "853617783316283392",
+    "846216930774745108" : "853615987429343244",
+    "853544022126362645" : "853616275087818772"
+  },
+  "resban": [ ]
+} 
